@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+// Generals styles
+.btn {
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #df512c;
+  padding: 0.3rem 0.8rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+
+  &:hover {
+    background-color: #279ccd;
+  }
+}
